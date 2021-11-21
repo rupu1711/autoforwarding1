@@ -16,8 +16,8 @@ async def handler(event):
   chat_id = event.chat_id
   print("{}{}".format(chat_id,chat))
 
-  if chat_id == -1001184107063:
-      await client.send_message(-1001580693925, event.raw_text)
+if chat_id == -1001289118315 or -1001532734505 or -1001303616692 or -1001342468454:
+      await client.send_message(-1001529919625, event.raw_text)
   
 client.start()
 client.run_until_disconnected()
